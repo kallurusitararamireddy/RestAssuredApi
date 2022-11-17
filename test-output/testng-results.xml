@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Facebook API Responce  -</font>is :200]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Instagram API Responce  -</font>is :200]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Youtube API Responce  -</font>is :200]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Quora API Responce  -</font>is :200]]>
+    </line>
+    <line>
+      <![CDATA[<B><font color = 'orange'> Pintrest API Responce  -</font>is :200]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-17T09:53:52 IST" name="Power AD Spy Api Suite" finished-at="2022-11-17T09:55:27 IST" duration-ms="94426">
+    <groups>
+    </groups>
+    <test started-at="2022-11-17T09:53:52 IST" name="PowerAdSpy Api Test" finished-at="2022-11-17T09:55:27 IST" duration-ms="94426">
+      <class name="com.power.api.test.Poweradspy_Insta_Api_Test">
+        <test-method signature="getInstaResponce()[pri:0, instance:com.power.api.test.Poweradspy_Insta_Api_Test@193f604a]" started-at="2022-11-17T09:54:22 IST" name="getInstaResponce" finished-at="2022-11-17T09:54:23 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Instagram API Responce  -</font>is :200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getInstaResponce -->
+      </class> <!-- com.power.api.test.Poweradspy_Insta_Api_Test -->
+      <class name="com.power.api.test.Poweradspy_Facebook_Api_Test">
+        <test-method signature="getFacebookResponce()[pri:0, instance:com.power.api.test.Poweradspy_Facebook_Api_Test@625732]" started-at="2022-11-17T09:53:53 IST" name="getFacebookResponce" finished-at="2022-11-17T09:54:22 IST" duration-ms="29394" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Facebook API Responce  -</font>is :200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFacebookResponce -->
+      </class> <!-- com.power.api.test.Poweradspy_Facebook_Api_Test -->
+      <class name="com.power.api.test.Poweradspy_Pintrest_Api_Test">
+        <test-method signature="getPintrestResponce()[pri:0, instance:com.power.api.test.Poweradspy_Pintrest_Api_Test@6bedbc4d]" started-at="2022-11-17T09:54:58 IST" name="getPintrestResponce" finished-at="2022-11-17T09:55:27 IST" duration-ms="29175" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Pintrest API Responce  -</font>is :200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getPintrestResponce -->
+      </class> <!-- com.power.api.test.Poweradspy_Pintrest_Api_Test -->
+      <class name="com.power.api.test.Poweradspy_Quora_Api_Test">
+        <test-method signature="getQuoraResponce()[pri:0, instance:com.power.api.test.Poweradspy_Quora_Api_Test@57af006c]" started-at="2022-11-17T09:54:24 IST" name="getQuoraResponce" finished-at="2022-11-17T09:54:58 IST" duration-ms="33205" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Quora API Responce  -</font>is :200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getQuoraResponce -->
+      </class> <!-- com.power.api.test.Poweradspy_Quora_Api_Test -->
+      <class name="com.power.api.test.Poweradspy_Youtube_Api_Test">
+        <test-method signature="getYoutubeResponce()[pri:0, instance:com.power.api.test.Poweradspy_Youtube_Api_Test@20f5239f]" started-at="2022-11-17T09:54:23 IST" name="getYoutubeResponce" finished-at="2022-11-17T09:54:24 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<B><font color = 'orange'> Youtube API Responce  -</font>is :200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getYoutubeResponce -->
+      </class> <!-- com.power.api.test.Poweradspy_Youtube_Api_Test -->
+    </test> <!-- PowerAdSpy Api Test -->
+  </suite> <!-- Power AD Spy Api Suite -->
+</testng-results>

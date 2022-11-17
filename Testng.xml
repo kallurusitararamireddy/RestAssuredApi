@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Power AD Spy Api Suite">
+
+<parameter name="testng.metrics.report.logo" value = "https://poweradspy.com/wp-content/uploads/2018/05/Untitled-design-3.png"/>
+	<parameter name="testng.metrics.report.name" value = "Powerad_Spy_API _Report.html"/>
+	 <parameter name="testng.metrics.report.appendTimestamp" value = "True"/> 
+	
+	<listeners>
+     
+    </listeners>
+	<test name="PowerAdSpy Api Test">
+    <classes>
+       <class name="com.power.api.test.Poweradspy_Facebook_Api_Test"/>
+        <class name="com.power.api.test.Poweradspy_Insta_Api_Test"/>
+         <class name="com.power.api.test.Poweradspy_Youtube_Api_Test"/>
+          <class name="com.power.api.test.Poweradspy_Quora_Api_Test"/>
+           <class name="com.power.api.test.Poweradspy_Pintrest_Api_Test"/>
+              
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
